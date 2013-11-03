@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="XamarinPlayground.Win8.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XamarinPlayground.Win8"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+	<Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+		<TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="193,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+		<TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="386,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+		<Button x:Name="CalculateButton" HorizontalAlignment="Left" Margin="609,240,0,0" VerticalAlignment="Top" Click="CalculateButton_Click">
+			<TextBlock TextWrapping="Wrap" Text="Calculate"/>
+		</Button>
+		<TextBlock x:Name="AnswerBlock" HorizontalAlignment="Left" Margin="734,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+	</Grid>
+</Page>
